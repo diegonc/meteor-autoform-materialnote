@@ -17,6 +17,7 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.addFiles([
+    'lib/client/ckMaterializeOverrides.js',
     'lib/client/templates.html',
     'lib/client/templates.js',
     'lib/client/autoform-materialnote.js'
