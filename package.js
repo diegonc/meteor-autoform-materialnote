@@ -20,6 +20,7 @@ Package.onUse(function(api) {
     'lib/client/ckMaterializeOverrides.js',
     'lib/client/templates.html',
     'lib/client/templates.js',
-    'lib/client/autoform-materialnote.js'
+    'lib/client/autoform-materialnote.js',
+    'lib/client/styles.css'
   ], 'client');
 });
