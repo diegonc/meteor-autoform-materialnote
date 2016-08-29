@@ -13,6 +13,8 @@ Package.onUse(function(api) {
     'underscore',
     'reactive-var',
     'aldeed:autoform@5.8.0',
+    'fourseven:scss@3.8.0_1', /* XXX - materialnote depends on an old fourseven:scss
+                                 override it by explicitly depending on it. */
     'cerealkiller:materialnote@1.2.1'
   ], 'client');
 
