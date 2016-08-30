@@ -1,8 +1,8 @@
-.label-fix {
+.afMaterialnote.label-fix {
 	margin-top: 0.5rem;
 }
 
-.label-fix + label {
+.afMaterialnote.label-fix + label {
 	/* As if always active... */
 	-webkit-transform: translateY(-140%);
 	transform: translateY(-140%);
