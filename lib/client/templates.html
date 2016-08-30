@@ -1,5 +1,10 @@
 <template name="afMaterialnote">
   <div class="label-fix">
     <div {{atts}}></div>
+    {{#if readonly}}
+    <div class="readonly-mode">
+      {{{value}}}
+    </div>
+    {{/if}}
   </div>
 </template>
