@@ -1,7 +1,7 @@
 Package.describe({
   name: 'diegonc:autoform-materialnote',
   summary: 'Materialnote editor for aldeed:autoform',
-  version: '1.2.1_4',
+  version: '1.2.1_5',
   git: 'https://github.com/diegonc/meteor-autoform-materialnote'
 });
 
